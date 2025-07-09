@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<style>
+			.main-container {
+				display: flex;
+				border: solid;
+				width: calc(100% - 100px);
+				/*height: 500px;*/
+				justify-content: center;
+				align-items: stretch;
+				flex-wrap: wrap;
+				margin: 50px;
+			}
+			.free, .premium, .enterprise {
+				border: solid;
+				width: 200px;
+				height: 250px;
+				padding: 10px;
+				margin: 10px;
+				text-align: center;
+			}
+			
+			.bottom {
+				border: solid;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main-container">
+			<div class="free">
+				<h1>Free</h1>
+			</div>
+			<div class="premium">
+				<h1>Premium</h1>
+				<h2>$9.99/year</h2>
+			</div>
+			<div class="enterprise">
+				<h1>Enterprise</h1>
+				<h2>$19.99/year</h2>
+			</div>
+		</div>
+		<div class="bottom"></div>
+		
+	</body>
+</html>
